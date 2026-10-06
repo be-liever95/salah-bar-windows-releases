@@ -3,14 +3,18 @@
 Salah Bar for Windows is "all rights reserved" (see [LICENSE](LICENSE)), except
 for the components below, which keep their own licenses and owners.
 
-## PrayTimes.js (prayer-time calculation)
-Copyright (c) 2007–2011 PrayTimes.org (Hamid Zarrabi-Zadeh).
-`src/Salah.Solar/SolarModel.cs` is a C# port of its astronomical algorithm (via
-the Mac app's `SolarModel.swift`) and, as a derived work, is licensed under the
-**GNU Lesser General Public License v3.0** ([LICENSE.LGPL](src/Salah.Solar/LICENSE.LGPL),
-with the GPL-3.0 text it refers to in [LICENSE.GPL](src/Salah.Solar/LICENSE.GPL)).
-It is built as its own assembly, `Salah.Solar.dll`, so it can be replaced; its
-source is published with each release.
+## Prayer-time calculation
+Since 1.1.0 Salah Bar computes the sun's position with its own code, written
+from the U.S. Naval Observatory's public-domain "Approximate Solar
+Coordinates" (https://aa.usno.navy.mil/faq/sun_approx).
+
+Versions 1.0.0 and 1.0.1 instead used `Salah.Solar.dll`, a C# port of the
+astronomical algorithm of **PrayTimes.js**, Copyright (c) 2007–2011
+PrayTimes.org (Hamid Zarrabi-Zadeh). As a derived work it is licensed under
+the **GNU Lesser General Public License v3.0**
+(https://www.gnu.org/licenses/lgpl-3.0.html), and its source stays published in
+`third-party/SolarModel-1.0.0-1.0.1.cs` (with `LICENSE.LGPL` and `LICENSE.GPL`) in
+the releases repo for those versions.
 
 ## NodaTime
 Copyright The Noda Time Authors. Apache License 2.0:
@@ -42,6 +46,15 @@ its terms of use.
 ## Translations
 English quotes use **Sahih International**; Turkish quotes use the **Diyanet
 İşleri Başkanlığı** translation. These belong to their publishers.
+
+## Quran recitations
+The Quran player streams (and, on request, downloads) recitations from
+**mp3quran.net**, https://mp3quran.net, using its public API. The reciters
+list bundled with the app comes from the same API. mp3quran.net's policy
+(https://www.mp3quran.net/eng/privacy, "Copyrights") states: "All rights are
+available to everyone, and we allow any visitor or developer to copy any
+material or use any link on the websites". The recordings belong to their
+reciters and producers and are not covered by Salah Bar's license.
 
 ## Adhan recordings
 The adhan recordings, bundled and in the online library, belong to their reciters

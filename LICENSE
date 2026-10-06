@@ -11,9 +11,9 @@ prior written permission.
 Exceptions:
 
 1. Third-party components keep their own licenses. See
-   THIRD_PARTY_NOTICES.md. In particular, the prayer-time engine
-   (Salah.Solar.dll; source in third-party/SolarModel.cs and in each release)
-   is derived from PrayTimes.js and is licensed under the GNU Lesser General
+   THIRD_PARTY_NOTICES.md. Versions 1.0.0 and 1.0.1 included a prayer-time
+   engine derived from PrayTimes.js (Salah.Solar.dll; source in
+   third-party/SolarModel-1.0.0-1.0.1.cs), licensed under the GNU Lesser General
    Public License, version 3 (third-party/LICENSE.LGPL). You may replace
-   Salah.Solar.dll in the installed app with a modified version as the LGPL
-   allows.
+   Salah.Solar.dll in those versions with a modified version as the LGPL
+   allows. Later versions don't include it.

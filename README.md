@@ -43,7 +43,7 @@ Salah Bar has no accounts, ads or analytics. See [PRIVACY.md](PRIVACY.md).
 ## License
 
 Salah Bar is free to download and use, but all rights are reserved (see [LICENSE](LICENSE)).
-The prayer-time engine is LGPL-3.0: its source is in [third-party/](third-party/) and in
-each release. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Versions 1.0.0 and 1.0.1 included an LGPL-3.0 prayer-time engine; its source is in
+[third-party/](third-party/). See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 [Support Salah Bar](https://buymeacoffee.com/be_liever95)
