@@ -1,0 +1,19 @@
+Salah Bar for Windows
+Copyright (c) 2026 Mumin Muhammedoglu. All rights reserved.
+
+You may download the official releases of Salah Bar for Windows from
+https://github.com/be-liever95/salah-bar-windows-releases/releases or the
+Microsoft Store, and use them on your own PCs, free of charge. No other
+permission is granted to copy, modify, distribute, sublicense, sell, or create
+derivative works from it, in whole or in part, without the copyright holder's
+prior written permission.
+
+Exceptions:
+
+1. Third-party components keep their own licenses. See
+   THIRD_PARTY_NOTICES.md. In particular, the prayer-time engine
+   (Salah.Solar.dll; source in third-party/SolarModel.cs and in each release)
+   is derived from PrayTimes.js and is licensed under the GNU Lesser General
+   Public License, version 3 (third-party/LICENSE.LGPL). You may replace
+   Salah.Solar.dll in the installed app with a modified version as the LGPL
+   allows.
