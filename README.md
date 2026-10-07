@@ -8,16 +8,20 @@ The Windows version of [Salah Bar for Mac](https://github.com/be-liever95/salah-
 
 ## Download
 
-**[Download the latest version](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest)**
+**[Get it from the Microsoft Store](https://apps.microsoft.com/detail/9PNM4R0HP3QN)** (recommended):
+signed by Microsoft, updated by the Store, and with Salah Bar's widgets on the Widgets board
+(Win+W). Or from a terminal: `winget install 9PNM4R0HP3QN -s msstore`.
+
+Or **[download the installer](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest)**:
 
 - Most PCs: `SalahBar.Windows-win-x64-Setup.exe`
 - Windows on Arm (Snapdragon, Surface Pro X …): `SalahBar.Windows-win-arm64-Setup.exe`
 
-Windows 11 is required. The installer isn't code-signed yet, so Windows SmartScreen may
-say it "protected your PC": choose **More info → Run anyway**. Salah Bar installs for your
-user only (no administrator rights), adds a Start menu entry, and updates itself.
+The installer isn't code-signed, so Windows SmartScreen may say it "protected your PC":
+choose **More info → Run anyway**. It installs for your user only (no administrator rights),
+adds a Start menu entry, and updates itself.
 
-Salah Bar will also be in the Microsoft Store, with widgets for the Widgets board.
+Windows 11 is required. Use one version, not both: they would each play the adhan.
 
 ## Features
 
@@ -26,9 +30,11 @@ Salah Bar will also be in the Microsoft Store, with widgets for the Widgets boar
   ISNA, MWL, Egypt and 18 more; automatic method by country
 - Reminders 10, 5 and 0 minutes before each prayer, with a Silence button
 - The adhan at prayer time, with fade-in, trimming, your own recordings and an online library of 169 adhans
+- A Quran player: 242 reciters, streaming or downloaded for offline listening; it pauses for the adhan
 - Stays quiet during calls, while the camera is on, in Do not disturb and in full-screen presentations
 - A green glow around the screen edges a few minutes before each prayer
-- A desktop widget (Small, Medium, Large)
+- An optional floating countdown, since the taskbar can't show text
+- A desktop widget (Small, Medium, Large), and Widgets-board widgets in the Store version
 - English, Turkish and Arabic, with a right-to-left layout in Arabic
 
 ## Uninstall
