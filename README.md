@@ -36,12 +36,13 @@ Windows 11 is required. Use one version, not both: they would each play the adha
 - Sunnah reminders: Al-Kahf on Fridays, Monday and Thursday fasts, the White Days
 - A Ramadan companion: your fasts, a Quran khatm plan, the iftar dua, suhoor and Taraweeh reminders, the last ten nights
 - Dhikr cards: now and then a quiet card with one of 17 authentic adhkar
+- All of Hisn al-Muslim: 267 duas with their meanings and recordings, to read and listen to
 - Prayer times as calendar events (.ics) for Outlook or Google Calendar
 - Stays quiet during calls, while the camera is on, in Do not disturb and in full-screen presentations
 - A green glow around the screen edges a few minutes before each prayer
 - An optional floating countdown, since the taskbar can't show text
 - Desktop widgets (prayer times and Ramadan), and Widgets-board widgets in the Store version
-- English, Turkish, Arabic, Urdu, Indonesian, Malay, French and Russian, right to left in Arabic and Urdu
+- English, Turkish, Arabic, Urdu, Indonesian, Malay, French, Russian, German, Bengali, Persian and Spanish, right to left in Arabic, Urdu and Persian
 
 ## Uninstall
 
