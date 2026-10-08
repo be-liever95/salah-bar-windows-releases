@@ -16,6 +16,13 @@ the **GNU Lesser General Public License v3.0**
 `third-party/SolarModel-1.0.0-1.0.1.cs` (with `LICENSE.LGPL` and `LICENSE.GPL`) in
 the releases repo for those versions.
 
+## The Amiri font
+The hadith on the welcome tour and in Settings is set in
+[Amiri](https://github.com/aliftype/amiri) 1.000 by Khaled Hosny, bundled
+unmodified (`Assets/Fonts/Amiri-Bold.ttf`, `Amiri-Regular.ttf`) under the
+[SIL Open Font License 1.1](https://openfontlicense.org); its licence text ships
+with the app as `Assets/Fonts/Amiri-OFL.txt`.
+
 ## NodaTime
 Copyright The Noda Time Authors. Apache License 2.0:
 https://github.com/nodatime/nodatime/blob/main/LICENSE.txt
@@ -39,9 +46,16 @@ Copyright (c) Microsoft Corporation. MIT License:
 https://github.com/microsoft/WindowsAppSDK/blob/main/LICENSE
 
 ## The Quran text
-The Arabic of the Quranic quotes is from the **Tanzil Quran Text** (quran-simple),
-Copyright (c) 2007–2026 Tanzil Project, https://tanzil.net, used verbatim under
-its terms of use.
+The Arabic of the Quranic quotes, and the full Quran text shown in the Quran
+window's Hifz (memorisation) mode (`shared/quran-text.json`, copied from the Mac
+app, where `scripts/gen-quran-text.py` makes it), is from the **Tanzil Quran
+Text** (quran-simple, version 1.1), Copyright (c) 2007–2026 Tanzil Project,
+https://tanzil.net, licensed under Creative Commons Attribution 3.0 and used
+verbatim under its terms of use: the text is not changed, its source is
+credited with a link to tanzil.net in the Hifz view ("Text: Tanzil.net"), and
+Tanzil's copyright notice is kept in the bundled file. Ayah timings for Hifz
+mode come from mp3quran.net's API, and ayah-by-ayah audio from EveryAyah.com
+(see below).
 
 ## Translations
 English quotes use **Sahih International**; Turkish quotes use the **Diyanet
@@ -55,6 +69,23 @@ list bundled with the app comes from the same API. mp3quran.net's policy
 available to everyone, and we allow any visitor or developer to copy any
 material or use any link on the websites". The recordings belong to their
 reciters and producers and are not covered by Salah Bar's license.
+
+## EveryAyah (Hifz mode)
+For recitations that mp3quran.net has no ayah timings for, Hifz
+(memorisation) mode downloads the ayahs it repeats, one MP3 per ayah, from
+**EveryAyah.com** (formerly VerseByVerseQuran.com), https://everyayah.com,
+and keeps them on the PC (%LOCALAPPDATA%\SalahBar\Quran\everyayah).
+Which EveryAyah folder belongs to which recitation is listed in
+`src/Salah.Core/Quran/EveryAyah.cs`.
+EveryAyah publishes no terms of use on its site today. Its timing files
+(https://everyayah.com/data/timings_files/000_disclaimer.txt) ask products
+that use them to link back to the site, and its former licence page
+(versebyversequran.com/site/license, 2012) pointed to Creative Commons
+Attribution-NonCommercial 2.5 Canada. Salah Bar credits it with a link in
+the Hifz view ("Audio: EveryAyah.com"), plays the recordings unchanged
+(only the files' ID3 tags, and any stray bytes before the audio, are
+removed) and is free. The recordings belong to their reciters and producers
+and are not covered by Salah Bar's license.
 
 ## Adhan recordings
 These bundled recordings are used under open licences (Salah Bar trims them,

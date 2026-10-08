@@ -28,14 +28,17 @@ Windows 11 is required. Use one version, not both: they would each play the adha
 - Countdown in the notification area; panel with today's times, Hijri date, Qibla and an ayah or dua
 - Prayer times calculated on your PC: Diyanet (matching the official tables), Umm al-Qura,
   ISNA, MWL, Egypt and 18 more; automatic method by country
-- Reminders 10, 5 and 0 minutes before each prayer, with a Silence button
+- Reminders 10, 5 and 0 minutes before each prayer, with a Silence button, and iqama times for your mosque
 - The adhan at prayer time, with fade-in, trimming, your own recordings and an online library of 169 adhans
 - A Quran player: 242 reciters, streaming or downloaded for offline listening; it pauses for the adhan
+- Hifz mode: repeat a range of ayahs to memorise them
+- A prayer log with streaks and qada counts, kept only on your PC
+- Sunnah reminders: Al-Kahf on Fridays, Monday and Thursday fasts, the White Days
 - Stays quiet during calls, while the camera is on, in Do not disturb and in full-screen presentations
 - A green glow around the screen edges a few minutes before each prayer
 - An optional floating countdown, since the taskbar can't show text
 - A desktop widget (Small, Medium, Large), and Widgets-board widgets in the Store version
-- English, Turkish and Arabic, with a right-to-left layout in Arabic
+- English, Turkish, Arabic, Urdu, Indonesian, Malay and French, right to left in Arabic and Urdu
 
 ## Uninstall
 
