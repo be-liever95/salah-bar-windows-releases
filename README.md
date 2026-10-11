@@ -14,17 +14,6 @@ signed by Microsoft, updated by the Store, and with Salah Bar's widgets on the W
 
 Windows 11 is required.
 
-<details>
-<summary>Without the Microsoft Store</summary>
-
-The [installer](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest) is still
-available: `SalahBar.Windows-win-x64-Setup.exe` for most PCs, `SalahBar.Windows-win-arm64-Setup.exe`
-for Windows on Arm. It isn't code-signed, so SmartScreen may say it "protected your PC" (choose
-**More info → Run anyway**). It installs for your user only and updates itself. Use one version,
-not both: they would each play the adhan.
-
-</details>
-
 ## Features
 
 - Countdown in the notification area; panel with today's times, Hijri date, Qibla and an ayah or dua
