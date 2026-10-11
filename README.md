@@ -8,20 +8,22 @@ The Windows version of [Salah Bar for Mac](https://github.com/be-liever95/salah-
 
 ## Download
 
-**[Get it from the Microsoft Store](https://apps.microsoft.com/detail/9PNM4R0HP3QN)** (recommended):
+**[Get it from the Microsoft Store](https://apps.microsoft.com/store/detail/9PNM4R0HP3QN?cid=DevShareMCLPCS)**:
 signed by Microsoft, updated by the Store, and with Salah Bar's widgets on the Widgets board
 (Win+W). Or from a terminal: `winget install 9PNM4R0HP3QN -s msstore`.
 
-Or **[download the installer](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest)**:
+Windows 11 is required.
 
-- Most PCs: `SalahBar.Windows-win-x64-Setup.exe`
-- Windows on Arm (Snapdragon, Surface Pro X …): `SalahBar.Windows-win-arm64-Setup.exe`
+<details>
+<summary>Without the Microsoft Store</summary>
 
-The installer isn't code-signed, so Windows SmartScreen may say it "protected your PC":
-choose **More info → Run anyway**. It installs for your user only (no administrator rights),
-adds a Start menu entry, and updates itself.
+The [installer](https://github.com/be-liever95/salah-bar-windows-releases/releases/latest) is still
+available: `SalahBar.Windows-win-x64-Setup.exe` for most PCs, `SalahBar.Windows-win-arm64-Setup.exe`
+for Windows on Arm. It isn't code-signed, so SmartScreen may say it "protected your PC" (choose
+**More info → Run anyway**). It installs for your user only and updates itself. Use one version,
+not both: they would each play the adhan.
 
-Windows 11 is required. Use one version, not both: they would each play the adhan.
+</details>
 
 ## Features
 
