@@ -19,7 +19,8 @@ the releases repo for those versions.
 ## The Amiri font
 The hadith on the welcome tour and in Settings is set in
 [Amiri](https://github.com/aliftype/amiri) 1.000 by Khaled Hosny, bundled
-unmodified (`Assets/Fonts/Amiri-Bold.ttf`, `Amiri-Regular.ttf`) under the
+unmodified (`Assets/Fonts/Amiri-Bold.ttf`, `Amiri-Regular.ttf`, and `AmiriQuran.ttf`
+for the Mushaf, from the same release) under the
 [SIL Open Font License 1.1](https://openfontlicense.org); its licence text ships
 with the app as `Assets/Fonts/Amiri-OFL.txt`.
 
@@ -57,9 +58,31 @@ Tanzil's copyright notice is kept in the bundled file. Ayah timings for Hifz
 mode come from mp3quran.net's API, and ayah-by-ayah audio from EveryAyah.com
 (see below).
 
+The Mushaf window shows the **Tanzil Quran Text** in the Uthmani script
+(quran-uthmani, version 1.1; `shared/quran-uthmani.json`, copied from the Mac app)
+under the same terms: verbatim, with Tanzil's copyright notice in the file.
+
+The Mushaf's printed styles show page images and their ayah positions from
+**Quran for Android** (https://github.com/quran/quran_android; files.quran.app):
+the **Madani** pages, the **Mushaf al-Shamarly** (contributed to that project by
+Waleed Ibrahim) and the **IndoPak** mushaf (which that project uses with permission
+of SHL Info Systems). They are downloaded only when a style is used, never bundled,
+and not covered by Salah Bar's license. No license is published for these images.
+
+The **Turkish** text style uses the page breaks of the **Diyanet İşleri Başkanlığı**
+mushaf (ayet berkenar, 605 pages): only which ayah begins each page
+(`shared/turkish-pages.json`). No text or images from that mushaf are used.
+
 ## Translations
 English quotes use **Sahih International**; Turkish quotes use the **Diyanet
 İşleri Başkanlığı** translation. These belong to their publishers.
+
+The Mushaf's **translations and tafsirs** (Settings → Quran → Translations and
+Tafsir) come from **Quran for Android**'s list (https://android.quran.com, the
+same project as the printed pages): each is a database of one translation or
+tafsir, downloaded only when it's chosen, never bundled, and not covered by Salah
+Bar's license. They belong to their translators and publishers, whose names are
+shown under the text.
 
 ## Quran recitations
 The Quran player streams (and, on request, downloads) recitations from
