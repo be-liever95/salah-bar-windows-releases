@@ -8,9 +8,10 @@ The Windows version of [Salah Bar for Mac](https://github.com/be-liever95/salah-
 
 ## Download
 
-**[Get it from the Microsoft Store](https://apps.microsoft.com/store/detail/9PNM4R0HP3QN?cid=DevShareMCLPCS)**:
-signed by Microsoft, updated by the Store, and with Salah Bar's widgets on the Widgets board
-(Win+W). Or from a terminal: `winget install 9PNM4R0HP3QN -s msstore`.
+**[Get it from the Microsoft Store](https://apps.microsoft.com/detail/9PNM4R0HP3QN?cid=DevShareMCLPCS&mode=direct)**
+(opens the Store app): signed by Microsoft, updated by the Store, and with Salah Bar's widgets on the Widgets
+board (Win+W). Or paste `ms-windows-store://pdp/?productid=9PNM4R0HP3QN` into Win+R, or from a terminal:
+`winget install 9PNM4R0HP3QN -s msstore`.
 
 Windows 11 is required.
 
