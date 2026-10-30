@@ -42,6 +42,10 @@ https://github.com/HavenDV/H.NotifyIcon/blob/master/LICENSE.md
 Copyright (c) Mark Heath and contributors. MIT License:
 https://github.com/naudio/NAudio/blob/master/license.txt
 
+## Velopack (updates of the direct download)
+Copyright (c) Velopack Ltd and contributors. MIT License:
+https://github.com/velopack/velopack/blob/master/LICENSE
+
 ## Windows App SDK / WinUI
 Copyright (c) Microsoft Corporation. MIT License:
 https://github.com/microsoft/WindowsAppSDK/blob/main/LICENSE
@@ -61,6 +65,11 @@ mode come from mp3quran.net's API, and ayah-by-ayah audio from EveryAyah.com
 The Mushaf window shows the **Tanzil Quran Text** in the Uthmani script
 (quran-uthmani, version 1.1; `shared/quran-uthmani.json`, copied from the Mac app)
 under the same terms: verbatim, with Tanzil's copyright notice in the file.
+
+Where each page of the Madani mushaf begins, for the daily wird
+(`shared/quran-pages.json`, copied from the Mac app), is from Tanzil's **Quran
+Metadata** (version 1.0), Copyright (C) 2008–2009 Tanzil.info, licensed under
+Creative Commons Attribution 3.0.
 
 The Mushaf's printed styles show page images and their ayah positions from
 **Quran for Android** (https://github.com/quran/quran_android; files.quran.app):
@@ -92,6 +101,32 @@ list bundled with the app comes from the same API. mp3quran.net's policy
 available to everyone, and we allow any visitor or developer to copy any
 material or use any link on the websites". The recordings belong to their
 reciters and producers and are not covered by Salah Bar's license.
+
+## Duas (Hisn al-Muslim)
+The Duas window has the Arabic text and chapters of **Hisn al-Muslim** (Fortress
+of the Muslim) by Sa'id ibn Wahf al-Qahtani, as published by
+**hisnmuslim.com** (https://www.hisnmuslim.com), and streams (and, on request,
+downloads) that site's recording of each dua. The chapter titles and meanings in
+every language were translated from the Arabic for Salah Bar. Further dua
+reciters are streamed from **IslamHouse.com**
+(https://islamhouse.com) and the **Internet Archive** (https://archive.org).
+The recordings belong to their reciters and producers and are not covered by
+Salah Bar's license.
+
+## The 99 Names of Allah
+The names and their order are at-Tirmidhi's list (Jami' at-Tirmidhi 3507), in the
+public domain, as are their standard transliterations; their meanings in all twelve
+languages and the explanations (English, Turkish, Arabic) were written for Salah Bar
+(`shared/names.json`, from the Mac app). The Quran words shown with each name are the
+Tanzil Quran Text above, verbatim.
+
+The recording of each name is by **Mohammed Sadiq** (GraphicJunction.com), published
+on [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Arabic_pronunciation_of_names_of_God_in_Islam)
+(`01-ar-rahman.ogg` … `99-as-sabur.ogg`) under the
+[Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+licence. The app streams (and, on request, downloads) Commons' MP3 transcode of each
+file from upload.wikimedia.org, never bundles them and doesn't change them; the
+99 Names view in the Duas window credits the recordings. They are not covered by Salah Bar's license.
 
 ## EveryAyah (Hifz mode)
 For recitations that mp3quran.net has no ayah timings for, Hifz
