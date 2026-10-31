@@ -17,19 +17,27 @@ Requires Windows 11 (build 22000 or later).
 
 ## Features
 
-- Countdown in the notification area; panel with today's times, Hijri date, Qibla and an ayah or dua
+- Countdown in the notification area; panel with today's times, Hijri date, Qibla and an ayah or dua, over a living sky
+  that follows the day with the sun and the real moon (and the weather, if you turn it on)
+- The time left to pray the current prayer, and the times to avoid prayer by your madhhab
+- Travel mode: far from home it offers to pray as a traveller, with the shortened prayers and, where your madhhab allows
+  it, Dhuhr with Asr and Maghrib with Isha combined
 - Prayer times calculated on your PC: Diyanet (matching the official tables), Umm al-Qura,
   ISNA, MWL, Egypt and 18 more; automatic method by country
-- Reminders 10, 5 and 0 minutes before each prayer, with a Silence button, and iqama times for your mosque, set by hand
-  or taken from the timetable your mosque publishes (a CSV, JSON or iCalendar link, or islamic.app)
-- The adhan at prayer time, with fade-in, trimming, your own recordings and an online library of 169 adhans
+- Reminders 10, 5 and 0 minutes before each prayer, with a Silence button, or each prayer's own, and a reminder before
+  sunrise; iqama times for your mosque, set by hand or taken from the timetable your mosque publishes (a CSV, JSON or
+  iCalendar link, or islamic.app)
+- The adhan at prayer time, on or off and with its own sound for each prayer, with fade-in, trimming, your own recordings
+  and an online library of 169 adhans; the Fajr adhan at Fajr, some minutes later or at your mosque's time
 - A Quran player: 242 reciters, streaming or downloaded for offline listening; it pauses for the adhan
 - The Mushaf, following the recitation, with translations and tafsir; search the Quran in Arabic, in a translation
   or by surah name, and keep bookmarks with notes
 - Hifz mode: repeat a range of ayahs to memorise them
-- A prayer log with streaks and qada counts, Sunnah prayers too, jama'ah and the masjid if you like, and a qada planner
+- A prayer log with streaks and qada counts, Sunnah prayers too, jama'ah and the masjid if you like, a qada planner and a
+  weekly look back
 - For sisters: excused days with quiet reminders and the prayers due once pure, pregnancy and nursing, and a word for you
-- Sunnah reminders: Al-Kahf on Fridays, Monday and Thursday fasts, the White Days
+- Sunnah reminders: Al-Kahf on Fridays, Monday and Thursday fasts, the White Days; Jumu'ah mode keeps Salah Bar quiet
+  during the khutbah
 - A Ramadan companion: your fasts, a Quran khatm plan, the iftar dua, suhoor and Taraweeh reminders, the last ten nights
 - Dhikr cards: now and then a quiet card with one of 17 authentic adhkar
 - All of Hisn al-Muslim: 267 duas with their meanings and recordings by five reciters, to read and listen to; a tasbih
