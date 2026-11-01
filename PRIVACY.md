@@ -14,11 +14,13 @@ about 10 km, goes to Open-Meteo (see below).
   sent anywhere (except, rounded, to Open-Meteo if you turn on the weather), nor written to the
   sync file.
 - **Settings and logs** (your settings, saved cities, prayer log, Ramadan log, Khatma progress,
-  where you stopped in each surah, downloaded adhans and recitations) are saved on your PC, in
+  where you stopped in each surah, Quran bookmarks, the daily wird, the tasbih, the zakat sheet,
+  downloaded adhans and recitations) are saved on your PC, in
   `%LOCALAPPDATA%\SalahBar`.
 - **Sync (only if you turn it on).** In Settings → Sync you choose a file in a cloud drive you
   already use (OneDrive, Google Drive, Dropbox or any folder your PC syncs). Salah Bar then writes
-  your settings, prayer log, Ramadan log, Khatma progress and Quran places to that file, with this
+  your settings, prayer log, Ramadan log, Khatma progress, Quran places and bookmarks, daily wird,
+  tasbih, zakat sheet and the adhkar and Al-Kahf you've done to that file, with this
   PC's name (as Windows shows in Settings → System → About) so your other devices can show where
   the data came from, and reads what your other devices wrote there. The file goes only where you
   put it: Salah Bar has no server and sends it nowhere else, and the developer never sees it. Your
