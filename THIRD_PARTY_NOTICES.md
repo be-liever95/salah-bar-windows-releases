@@ -24,6 +24,17 @@ for the Mushaf, from the same release) under the
 [SIL Open Font License 1.1](https://openfontlicense.org); its licence text ships
 with the app as `Assets/Fonts/Amiri-OFL.txt`.
 
+## The Google Sans font and the Google "G"
+The Sign in with Google button is set in
+[Google Sans](https://github.com/googlefonts/googlesans), Copyright 2025 The Google
+Sans Project Authors, from google/fonts (`ofl/googlesans`), instanced to Medium and
+subset to the button's characters (`Assets/Fonts/GoogleSans-Medium.ttf`), under the
+[SIL Open Font License 1.1](https://openfontlicense.org); its licence text ships
+with the app as `Assets/Fonts/googlesans-OFL.txt`. The "G" logo
+(`Assets/Google/google-g@4x.png`, from Google's sign-in button assets) is a
+trademark of Google LLC, used as Google's branding guidelines for Sign in with
+Google allow (https://developers.google.com/identity/branding-guidelines).
+
 ## NodaTime
 Copyright The Noda Time Authors. Apache License 2.0:
 https://github.com/nodatime/nodatime/blob/main/LICENSE.txt
