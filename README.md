@@ -58,7 +58,7 @@ Settings → Apps → Installed apps → Salah Bar → Uninstall. Your settings 
 
 ## Privacy
 
-Salah Bar has no accounts, ads or analytics. See [PRIVACY.md](PRIVACY.md).
+Salah Bar has no accounts, ads or analytics. See [PRIVACY.md](PRIVACY.md), also at [salah-bar.com/privacy](https://salah-bar.com/privacy/).
 
 ## License
 
