@@ -1,6 +1,6 @@
 # Privacy
 
-*Last updated: 31 October 2026*
+*Last updated: 15 November 2026*
 
 Salah Bar for Windows doesn't collect, store or send any personal data to its developer. It has
 no accounts, ads, tracking or analytics. Your settings, location and prayer log stay on your PC,
@@ -61,6 +61,7 @@ like any web request, each sees your PC's IP address.
 | Service | When | What it receives |
 |---|---|---|
 | **Open-Meteo** (api.open-meteo.com) | Only with *Show the weather* on (Settings → Appearance): when you turn it on, then at most every 30 minutes while the app runs | Your location rounded to 0.1° (about 10 km), to get the current weather there; nothing else is sent with it |
+| **Gold and silver prices** (cdn.jsdelivr.net, and latest.currency-api.pages.dev if it doesn't answer) | Only while the zakat sheet is open (the Zakat window or Settings → Zakat) with *Get prices from the internet* on (on by default, on each PC): when the last prices are more than 6 hours old, when you turn the switch on, and when you click *Try again* | Two requests for the same public files everyone gets, the day's price of gold and of silver in every currency; nothing about you or your sheet (not even its currency) is sent with them |
 | **mp3quran.net** | When you use the Quran window: the list of reciters (at most once a week), the surahs you play or download, and ayah timings for Hifz | Requests for those files |
 | **EveryAyah.com** | Hifz with recitations it serves ayah by ayah | Requests for those ayahs' files |
 | **hisnmuslim.com** | When you listen to a dua, or download the recordings | A request for that dua's recording |
@@ -82,6 +83,17 @@ current weather at your city's location rounded to 0.1° (about 10 km), at most 
 the app runs, with no account, key, cookie or identifier. The answer (clouds, rain, snow…) stays on
 your PC and is shared with its widgets. Turning the switch off stops the requests and forgets the last
 answer. Open-Meteo's terms and privacy policy apply to the request; its weather data is CC BY 4.0.
+
+**Gold and silver prices** (on by default, on each PC; a switch on the zakat sheet). To value your gold
+and silver and set the nisab, the zakat sheet can use the day's spot prices from the free fawazahmed0
+currency API (served by jsDelivr, with its Cloudflare mirror latest.currency-api.pages.dev as a fallback).
+Salah Bar asks for two whole price lists, one for gold and one for silver, each priced in every currency,
+so the request doesn't say which currency you count in or anything else about your sheet; it carries no
+account, key, cookie or identifier. It asks only while the sheet is open, at most every 6 hours (or when
+you click *Try again*). The prices are kept on your PC in `%LOCALAPPDATA%\SalahBar` and are not synced.
+A price you type on the sheet is used instead of the internet's. Turn *Get prices from the internet* off
+and Salah Bar makes no request for prices. The data is CC0; jsDelivr's and Cloudflare's privacy policies
+apply to the requests.
 
 Links you click (such as Tanzil.net for the Quran text's source, or the Buy Me a Coffee support
 page) open in your browser.
